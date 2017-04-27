@@ -176,7 +176,7 @@ body {
     width: 190px;
     height: 190px;
     float: left;
-    background-color: #b2b2b2;
+    background-image: url("../img/places.jpg");
     margin-left: 20px;
     margin-bottom: 20px;
 }
@@ -193,7 +193,6 @@ body {
 
  .section-title {
     font-size: 30px;
-    /*font-family: Roboto, sans-serif;*/
     color: #4a4a4a;
 }
  .section-sologan {
@@ -254,8 +253,7 @@ body {
 .square1 {
     width: 280px;
     height: 215px;
-    background-color: #b2b2b2;
-    margin-left: 85px;
+    margin-left: 0px;
 }
 #Liberty {
     width: 140px;
@@ -266,7 +264,7 @@ body {
  .box {
     width: 140px;
     height: 100px;
-    background-color: #b2b2b2;
+
 }
  .desc-background {
     background-color: #ffffff;
@@ -280,17 +278,20 @@ body {
  }
 
 .desc-title {
-    padding: 15px;
+    padding: 12px;
     text-align: left;
-    font-size: 11px;
     color: #4c4b4a;
+    text-decoration: none;
 
+}
+.desc-title a {
+    font-size: 11px;
 }
  .desc-content {
     font-size: 9px;
     color: #d7d7d7;
     text-align: left;
-    padding: 0 20px;
+    padding: 0 12px;
 }
 
  #Istanbul {
@@ -326,7 +327,6 @@ body {
 .client-image {
     width: 90px;
     height: 90px;
-    background-color: #b2b2b2;
     margin: 22px;
     border-radius: 3px;
     float: left;
